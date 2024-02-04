@@ -16,6 +16,7 @@ node_modules/
 
 # Personal study materials
 *.zip
+first_README.md
 
 # Python bytecode cache files
 __pycache__/
