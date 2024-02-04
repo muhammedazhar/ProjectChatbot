@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gsap": "^3.11.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.1.0"
+  }
+}

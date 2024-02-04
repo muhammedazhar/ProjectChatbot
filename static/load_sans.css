@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'ProductSans';
+  src: url('fonts/ProductSans/ProductSans-Regular.ttf') format('ttf'),
+       url('fonts/ProductSans/ProductSans-Regular.woff2') format('woff2'),
+       url('fonts/ProductSans/ProductSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('fonts/BebasNeue/BebasNeue-Regular.ttf') format('ttf'),
+       url('fonts/BebasNeue/BebasNeue-Regular.woff2') format('woff2'),
+       url('fonts/BebasNeue/BebasNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SöhneExtraLight';
+  src: url('fonts/Söhne/Söhne/Söhne-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneExtraLightItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneLight';
+  src: url('fonts/Söhne/Söhne/Söhne-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneLightItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneRegular';
+  src: url('fonts/Söhne/Söhne/Söhne-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneRegularItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneMedium';
+  src: url('fonts/Söhne/Söhne/Söhne-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneMediumItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneSemiBold';
+  src: url('fonts/Söhne/Söhne/Söhne-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneSemiBoldItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneBold';
+  src: url('fonts/Söhne/Söhne/Söhne-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneBoldItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneExtraBold';
+  src: url('fonts/Söhne/Söhne/Söhne-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneExtraBoldItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SöhneHeavy';
+  src: url('fonts/Söhne/Söhne/Söhne-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SöhneHeavyItalic';
+  src: url('fonts/Söhne/Söhne/Söhne-HeavyItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+}

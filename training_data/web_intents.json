@@ -1,0 +1,84 @@
+{
+    "intents": [
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where's my order?",
+                "Order status",
+                "Track my package"
+            ],
+            "responses": [
+                "Please provide your order number and we'll check on the status for you.",
+                "To check your order status, go to My Orders page.",
+                "I can definitely help you with that. Can you please provide your order number?"
+            ]
+        },
+        {
+            "tag": "product_info",
+            "patterns": [
+                "Tell me about your products",
+                "What do you sell?",
+                "Product information"
+            ],
+            "responses": [
+                "We offer a wide range of products including electronics, clothing, and home goods. What type of product are you interested in?",
+                "Our products range from electronics to fashion and everything in between. What can I help you find?",
+                "Our selection includes a variety of products, such as electronics, clothing, and home decor. What are you looking for?"
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "Can I return a product?",
+                "What's your return policy?",
+                "Exchange or refund",
+                "Can I exchange my product?"
+            ],
+            "responses": [
+                "Our return policy allows for returns within 30 days of purchase. Please visit our website for more details.",
+                "We have a 30-day return policy. You can find more information on our website.",
+                "Returns are accepted within 30 days of purchase. Check out our website for full details."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance"
+            ],
+            "responses": [
+                "Sure! What do you need help with?",
+                "Absolutely, how can I assist you?",
+                "Of course, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "complaints",
+            "patterns": [
+                "I have a complaint",
+                "Unsatisfied with my order",
+                "Problem with my purchase"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Please provide more details so we can assist you.",
+                "I apologize for any inconvenience. Can you give me more information about the issue?",
+                "I'm sorry to hear that you're having a problem with your purchase. Can you please provide more details?"
+            ]
+        },
+        {
+            "tag": "out_of_stock",
+            "patterns": [
+                "Out of stock",
+                "When will this be back in stock?",
+                "Unavailable"
+            ],
+            "responses": [
+                "I'm sorry, that item is currently out of stock. We expect to receive more inventory soon?",
+                "Unfortunately, that item is currently out of stock. We apologize for the inconvenience.",
+                "I'm sorry, that item is out of stock at the moment. Please check back in a few days or sign up for our notification list to receive an alert when it's back in stock.",
+                "We're currently out of stock of that product, but we're working to get more inventory as soon as possible. Thank you for your patience.",
+                "I'm sorry, that product is currently unavailable. Is there anything else I can help you with today?"
+            ]
+        }
+    ]
+}

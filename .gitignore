@@ -1,0 +1,21 @@
+# macOS specific files
+.DS_Store
+
+# Windows-specific files
+desktop.ini
+Thumbs.db
+
+# Visual Studio Code settings
+.vscode/
+
+# Testing files
+*.file
+
+# Node Modules folder
+node_modules/
+
+# Personal study materials
+*.zip
+
+# Python bytecode cache files
+__pycache__/
