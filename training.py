@@ -1,6 +1,7 @@
 # Importing the necessary libraries
 import nltk
-nltk.download('punkt')
+# Download NLTK data to the current directory
+nltk.download('punkt', download_dir='.')
 # import random
 import json
 import torch
@@ -124,12 +125,12 @@ print(f'final loss: {loss.item():.4f}')
 
 # Create a dictionary containing the trained model's state, input size, hidden size, output size, all words, and tags
 data = {
-"model_state": model.state_dict(),
-"input_size": input_size,
-"hidden_size": hidden_size,
-"output_size": output_size,
-"all_words": all_words,
-"tags": tags
+    "model_state": model.state_dict(),
+    "input_size": input_size,
+    "hidden_size": hidden_size,
+    "output_size": output_size,
+    "all_words": all_words,
+    "tags": tags
 }
 
 # Save the trained model's data dictionary to a file named "data.pth"
