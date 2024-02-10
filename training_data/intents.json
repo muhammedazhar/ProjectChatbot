@@ -30,6 +30,22 @@
             ]
         },
         {
+            "tag": "navigation",
+            "patterns": [
+                "Please quit!",
+                "How can I exit?",
+                "How to end this chat?",
+                "How do I exit?",
+                "See you soon",
+                "exit"
+            ],
+            "responses": [
+                "Please type quit' to end this chat session on the terminal.",
+                "To exit, type 'quit'.",
+                "Try typing the 'quit' command."
+            ]
+        },
+        {
             "tag": "name",
             "patterns": [
                 "What is your name?",
