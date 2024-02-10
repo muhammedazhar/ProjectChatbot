@@ -9,4 +9,4 @@ scraper.build(url, wanted_list)
 
 print(scraper.get_result_exact('https://www.flipkart.com/apple-iphone-14-pro-max-deep-purple-128-gb/p/itm5256789ae40c7'))
 
-scraper.save('price_scraper')
+scraper.save('./price_scraper')
