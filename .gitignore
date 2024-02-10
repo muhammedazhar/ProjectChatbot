@@ -20,3 +20,12 @@ first_README.md
 
 # Python bytecode cache files
 __pycache__/
+
+# NLTK Punkt tokenizer library files
+/tokenizers
+
+# Model file
+data.pth
+
+# Chat History
+chat_history.json
