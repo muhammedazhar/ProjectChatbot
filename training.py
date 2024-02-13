@@ -13,7 +13,7 @@ from nltk_utils import bag_of_words, tokenize, stem
 
 # Opening intents JSON file and loading it into a variable
 try:
-    with open('./training_data/intents.json', 'r') as f:
+    with open('./datasets/intents.json', 'r') as f:
         intents = json.load(f)
 except json.decoder.JSONDecodeError:
     print('Error: JSON file is not valid.')
