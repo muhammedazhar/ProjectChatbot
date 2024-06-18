@@ -6,11 +6,19 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 # Check if GPU is available, use CPU if not
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+if torch.backends.mps.is_available():
+    device = 'mps'
+    # Check PyTorch has access to MPS (Metal Performance Shader, Apple's GPU architecture)
+    print(f"Is Apple MPS (Metal Performance Shader) built? {torch.backends.mps.is_built()}")
+    print(f"Is Apple MPS available? {torch.backends.mps.is_available()}")
+elif torch.cuda.is_available():
+    device = 'cuda'
+else:
+    device = 'cpu'
 
 # Opening intents JSON file and loading it into a variable
 try:
-    with open('./datasets/intents.json', 'r') as f:
+    with open('../Datasets/intents.json', 'r') as f:
         intents = json.load(f)
 except json.decoder.JSONDecodeError:
     print('Error: JSON file is not valid.')

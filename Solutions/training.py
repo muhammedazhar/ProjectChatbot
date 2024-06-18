@@ -11,9 +11,20 @@ from model import NeuralNet
 from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 
+# Check if GPU is available, use CPU if not
+if torch.backends.mps.is_available():
+    device = 'mps'
+    # Check PyTorch has access to MPS (Metal Performance Shader, Apple's GPU architecture)
+    print(f"Is Apple MPS (Metal Performance Shader) built? {torch.backends.mps.is_built()}")
+    print(f"Is Apple MPS available? {torch.backends.mps.is_available()}")
+elif torch.cuda.is_available():
+    device = 'cuda'
+else:
+    device = 'cpu'
+
 # Opening intents JSON file and loading it into a variable
 try:
-    with open('./datasets/intents.json', 'r') as f:
+    with open('../Datasets/intents.json', 'r') as f:
         intents = json.load(f)
 except json.decoder.JSONDecodeError:
     print('Error: JSON file is not valid.')
@@ -89,9 +100,6 @@ train_loader = DataLoader(dataset=dataset,
                           shuffle=True,
                           num_workers=0)
 
-# Set the device for training to CUDA if available, otherwise CPU
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
 # Instantiate the NeuralNet model
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
@@ -134,7 +142,7 @@ data = {
 }
 
 # Save the trained model's data dictionary to a file named "data.pth"
-FILE = "data.pth"
+FILE = "./Models/Modelfile.pth"
 torch.save(data, FILE)
 
 # Print a message indicating that the training is complete and the file is saved

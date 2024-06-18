@@ -25,7 +25,7 @@ def predict():
     }
     
     # Open the chat history JSON file in append mode
-    with open('chat_history.json', 'a') as file:
+    with open('../Docs/chat_history.json', 'a') as file:
         # Write the chat history object to the file
         json.dump(chat_history, file)
         file.write('\n') # Add a new line for each chat history entry
