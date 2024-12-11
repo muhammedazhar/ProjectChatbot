@@ -24,7 +24,7 @@ except json.decoder.JSONDecodeError:
     print('Error: JSON file is not valid.')
 
 # Load preprocessed data from pth file
-FILE = "data.pth"
+FILE = "../Models/Modelfile.pth"
 data = torch.load(FILE)
 
 # Get input, hidden and output size, all words, and tags from data
